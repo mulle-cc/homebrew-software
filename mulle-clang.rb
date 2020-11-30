@@ -32,7 +32,7 @@ class MulleClang < Formula
 #
   bottle do
 #    "#{root_url}/#{name}-#{version}.#{tag}.bottle.#{revision}.tar.gz"
-    root_url "http://download.codeon.de/bottles"
+    root_url "https://github.com/Codeon-GmbH/mulle-clang/releases/download/10.0.0.2"
 
     sha256 "ff7f48f06ac79be33c5096cfc422233fcbcd60299c7bfb0654e51b86afa666e6" => :mojave
     sha256 "231d115ae20703ef2a4025c0603e7c0629f8c9bcdb0515cefa09ded202483963" => :high_sierra
