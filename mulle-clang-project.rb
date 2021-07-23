@@ -39,8 +39,8 @@ class MulleClangProject < Formula
 #    "#{root_url}/#{name}-#{version}.#{tag}.bottle.#{revision}.tar.gz"
     root_url "https://github.com/Codeon-GmbH/mulle-clang-project/releases/download/12.0.0.0"
 
-    sha256 cellar: :any, catalina: "279ae722f43d39c2cd4600caec7a0f335565e0e226b43b7dcd8d98a3b249a965"
-    sha256 cellar: :any, big_sur: "4fe2ce52f47f43fdea7d9e4939464c0677c0dd893c6a13c8afc4d3304427d381"
+    sha256 cellar: :any, catalina: "104f90d31d9ae721f88c5660962bb9321cc6d301fc07ee7bb3b771cd6873659f"
+    sha256 cellar: :any, big_sur: "82848a91f79edb9a83f0baf4c8acfd4378cfe292eef0f836fa9562df808134e9"
   end
 
 #
