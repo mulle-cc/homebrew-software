@@ -1,23 +1,23 @@
 # homebrew-software
 
-This is a tap for Codeon [homebrew](//brew.sh) formulae.
+This is a tap for mulle-objc [homebrew](//brew.sh) formulae.
 
 
 ### How to install a tool
 
-Pick a tool name and say `brew install codeon-gmbh/software/<name>`.
+Pick a tool name and say `brew install mulle-objc/software/<name>`.
 
 Example: To install mulle-clang use:
 
 ~~~
-brew install codeon-gmbh/software/mulle-clang
+brew install mulle-objc/software/mulle-clang-project
 ~~~
 
 
-### List of tools: Linux, OS X
+### List of tools: OS X
 
 Name                    | Description                               | Project
 ------------------------|-------------------------------------------|-------------
-mulle-clang             | Objective-C compiler for **mulle-objc**.  | [[github](https://github.com/codeon-gmbh/mulle-objc)]
-mulle-clang-homebrew    | Shim to use mulle-clang inside homebrew formulas | [[github](https://github.com/codeon-gmbh/mulle-clang-homebrew)
-mulle-lldb              | Debugger for **mulle-objc**.              | [[github](https://github.com/codeon-gmbh/mulle-lldb)]
+mulle-clang-project     | Objective-C compiler for **mulle-objc**.  | [[github](https://github.com/mulle-cc/mulle-clang-project)]
+mulle-clang-homebrew    | Shim to use mulle-clang inside homebrew formulas | [[github](https://github.com/mulle-cc/mulle-clang-homebrew)
+<!-- mulle-gdb               | Debugger for **mulle-objc**.              | [[github](https://github.com/mulle-cc/mulle-gdb)] -->
