@@ -1,5 +1,5 @@
 class MulleClangHomebrewTest < Formula
-   homepage "https://github.com/Codeon-GmbH/mulle-clang-homebrew-test"
+   homepage "https://github.com/mulle-cc/mulle-clang-homebrew-test"
    desc "Test for: Shim for compiling homebrew packages with the mulle-objc compiler"
 
    url "https://github.com/mulle-cc/mulle-clang-homebrew-test/archive/0.0.1.tar.gz"
