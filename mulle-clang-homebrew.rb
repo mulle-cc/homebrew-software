@@ -6,7 +6,7 @@ class MulleClangHomebrew < Formula
 
   keg_only "this shim is only used inside a brew formula."
 
-  # ther archive is totally bogus and just used for versioning
+  # the archive is totally bogus and just used for versioning
   url "https://github.com/mulle-cc/mulle-clang-homebrew/archive/refs/tags/0.0.2.tar.gz"
   sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
 
