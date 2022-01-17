@@ -1,13 +1,13 @@
 class MulleClangHomebrew < Formula
-  homepage "https://github.com/Codeon-GmbH/mulle-clang-homebrew"
+  homepage "https://github.com/mulle-objc/mulle-clang-homebrew"
   desc "Shim for compiling homebrew packages with the mulle-objc compiler"
 
-  depends_on 'mulle-clang' => :build
+  depends_on 'mulle-clang-project' => :build
 
   keg_only "this shim is only used inside a brew formula."
 
   # ther archive is totally bogus and just used for versioning
-  url "https://github.com/Codeon-GmbH/mulle-clang-homebrew/archive/0.0.2.tar.gz"
+  url "https://github.com/mulle-cc/mulle-clang-homebrew/archive/0.0.2.tar.gz"
   sha256 "1f4b77e8e4621bf14b7c6d23325de6b3b15dd81e84060fa65f8e2f912436c29b"
 
   def install
