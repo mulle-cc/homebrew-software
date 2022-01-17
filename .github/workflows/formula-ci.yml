@@ -14,5 +14,5 @@ jobs:
         for formula in `brew tap-info mulle-objc/software --json | jq -r '.[]|(.formula_names[],.cask_tokens[])'`
         do
            echo "Install ${formula}" >&2
-           brew install "${formula}" || exit 1
+           brew -v install "${formula}" || exit 1
         done
