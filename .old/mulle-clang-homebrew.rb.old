@@ -7,8 +7,8 @@ class MulleClangHomebrew < Formula
   keg_only "this shim is only used inside a brew formula."
 
   # the archive is totally bogus and just used for versioning
-  url "https://github.com/mulle-cc/mulle-clang-homebrew/archive/0.0.2.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  url "https://github.com/mulle-cc/mulle-clang-homebrew/archive/refs/tags/0.0.2.tar.gz"
+  sha256 "1f4b77e8e4621bf14b7c6d23325de6b3b15dd81e84060fa65f8e2f912436c29b"
 
   def install
     shimdir = ENV[ "HOMEBREW_LIBRARY"] + "/Homebrew/shims/super"
