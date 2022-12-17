@@ -2,7 +2,7 @@ class MulleClangProject < Formula
   desc "Objective-C compiler for the mulle-objc runtime"
   homepage "https://github.com/mulle-cc/mulle-clang-project"
   license "BSD-3-Clause"
-  version "14.0.6.1"
+  version "14.0.6.2"
 #  revision 1
   head "https://github.com/mulle-cc/mulle-clang-project.git", branch: "mulle/14.0.6"
 
@@ -15,11 +15,11 @@ class MulleClangProject < Formula
 #    3. Run shasum over it `shasum -a 256 -b 13.0.0.i1.tar.gz`
 #    4. Remove bottle urls
 #
-  url "https://github.com/mulle-cc/mulle-clang-project/archive/refs/tags/14.0.6.1.tar.gz"
-  sha256 "e8af07b9a8bb56f7c87d7bdadb7cdbf19c25ff665bca74808e336afe76b25c8b"
+  url "https://github.com/mulle-cc/mulle-clang-project/archive/refs/tags/14.0.6.2.tar.gz"
+  sha256 "299ebbdeafa4f5699f35b87b921f7222097d64f6b56d5e417633bf0419726833"
 
   def vendor
-    "mulle-clang 14.0.6.1 (runtime-load-version: 17)"
+    "mulle-clang 14.0.6.2 (runtime-load-version: 17)"
   end
 
 #
@@ -42,10 +42,10 @@ class MulleClangProject < Formula
 #    "#{root_url}/#{name}-#{version}.#{tag}.bottle.#{revision}.tar.gz"
 #   root_url "https://www.mulle-kybernetik.com/bottles"
 
-    root_url "https://github.com/mulle-cc/mulle-clang-project/releases/download/14.0.6.1"
+    root_url "https://github.com/mulle-cc/mulle-clang-project/releases/download/14.0.6.2"
 
-    sha256 cellar: :any, big_sur: "cac8d36b6ab91364c3f3da6972149165a4eb22d8812c75c0b1bea5649fba90ca"
- 
+    sha256 cellar: :any, monterey: "d9fe5d0177b19e74885bddf4ea4c9fcffd453a937ebeeee2116196e6b905cc54"
+    sha256 cellar: :any, big_sur: "c9f575ca3854f4b2cbeb6bf780a74f881356dbd02149f6af81a34f4f231f4907"
   end
 
 #
